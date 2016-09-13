@@ -1,0 +1,6 @@
+framework module Pods_CMBPay_Example {
+  umbrella header "Pods-CMBPay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
