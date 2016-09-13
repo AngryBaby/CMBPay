@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CMBPay_Example' do
+  pod 'CMBPay', :path => '../'
+
+  target 'CMBPay_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
