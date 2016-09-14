@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.source_files = 'CMBPay/Classes/**/*.{h,m}'
   s.resource_bundles = {
-   'CMBPay' => ['CMBPay/Assets/*.png']
+   'CMBPay' => ['CMBPay/Assets/**/*.{xcassets,imageset}']
   }
   s.vendored_frameworks = 'CMBPay/Classes/cmbkeyboard.framework'
   s.frameworks = 'UIKit', 'MapKit'

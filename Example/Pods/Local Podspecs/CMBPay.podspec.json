@@ -21,7 +21,7 @@
   "source_files": "CMBPay/Classes/**/*.{h,m}",
   "resource_bundles": {
     "CMBPay": [
-      "CMBPay/Assets/*.png"
+      "CMBPay/Assets/**/*.{xcassets,imageset}"
     ]
   },
   "vendored_frameworks": "CMBPay/Classes/cmbkeyboard.framework",
